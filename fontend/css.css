@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("./bg1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.form {
+  position: relative;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(50px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+} 
+
+.img {
+  /* width: 350px;
+  height: 350px; */
+  margin: 24px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.img img {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.addImg {
+  margin: 24px;
+}
+
+.addImg label {
+  font-size: 22px;
+  color: #0F7771;
+}
+
+.addImg input {
+  font-size: 18px;
+    margin-top: 12px;
+}
+
+.heading {
+  color: #0F7771;
+  font-size: 2em;
+  margin: 25px 10px;
+  text-align: center;
+}
+
+.input-box label {
+  color: #0F7771;
+}
+
+#result {
+  margin: 16px;
+  font-size: 24px;
+  text-align: center;
+  color: red;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  background: #0F7771;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 16px;
+}

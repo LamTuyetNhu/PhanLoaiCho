@@ -1,0 +1,7 @@
+/* Cài đặt */
+uvicorn main:app --reload
+python -m venv dl_venv
+pip install python-multipart.
+
+/* Chạy */
+uvicorn main:app --reload
